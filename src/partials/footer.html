@@ -1,0 +1,80 @@
+  <!-- Newsletter band -->
+  <section class="relative overflow-hidden bg-brand-500 text-white" aria-labelledby="newsletter-title">
+    <div class="marquee absolute inset-x-0 top-1/2 -translate-y-1/2 opacity-[0.08]" aria-hidden="true">
+      <div class="marquee__track font-display text-[9rem] font-extrabold leading-none tracking-tighter"><span>Stay connected</span><span>✦</span><span>Stay connected</span><span>✦</span></div>
+      <div class="marquee__track font-display text-[9rem] font-extrabold leading-none tracking-tighter"><span>Stay connected</span><span>✦</span><span>Stay connected</span><span>✦</span></div>
+    </div>
+    <div class="container-x relative grid gap-10 py-20 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:py-24">
+      <div data-reveal>
+        <p class="eyebrow text-white/80">Newsletter</p>
+        <h2 id="newsletter-title" class="mt-4 text-h2 font-semibold text-balance">Stories from the frontlines, <span class="serif-accent">straight to your inbox.</span></h2>
+        <p class="mt-4 max-w-lg text-white/80">Quarterly updates on the women we work with, where your gift went, and what comes next. No spam, ever.</p>
+      </div>
+      <form class="js-newsletter grid gap-3 sm:grid-cols-2" data-reveal novalidate>
+        <label class="sr-only" for="nl-first">First name</label>
+        <input id="nl-first" name="first" type="text" required placeholder="First name" autocomplete="given-name" class="field field-dark border-white/25 bg-white/10">
+        <label class="sr-only" for="nl-last">Last name</label>
+        <input id="nl-last" name="last" type="text" placeholder="Last name" autocomplete="family-name" class="field field-dark border-white/25 bg-white/10">
+        <label class="sr-only" for="nl-email">Email</label>
+        <input id="nl-email" name="email" type="email" required placeholder="Email address" autocomplete="email" class="field field-dark border-white/25 bg-white/10 sm:col-span-2">
+        <button type="submit" class="btn btn-light sm:col-span-2"><span>Sign up for updates</span><i data-icon="arrow-up-right" class="btn-ico h-4 w-4"></i></button>
+        <p class="form-msg text-sm text-white/90 sm:col-span-2" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-grain relative overflow-hidden bg-plum text-white">
+    <div class="container-x relative z-10 pb-10 pt-20">
+      <div class="grid gap-14 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div>
+          <img src="assets/img/jnus-logo-light.png" alt="JNUS — Jago Nari Unnayon Sangstha" width="871" height="353" class="h-14 w-auto" loading="lazy">
+          <p class="mt-6 max-w-sm text-white/65">An independent, non-profit, non-political and women-led organisation working since 2009 for the rights, safety and leadership of women and girls in Cox's Bazar, Bangladesh.</p>
+          <a href="donate.html" class="btn btn-primary mt-8"><i data-icon="heart" class="h-4 w-4 fill-current"></i><span>Donate now</span></a>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Explore</h3>
+          <ul class="mt-6 space-y-3 text-white/75">
+            <li><a class="hover:text-white" href="about.html">About us</a></li>
+            <li><a class="hover:text-white" href="what-we-do.html">What we do</a></li>
+            <li><a class="hover:text-white" href="programmes.html">Programmes</a></li>
+            <li><a class="hover:text-white" href="news.html">News &amp; stories</a></li>
+            <li><a class="hover:text-white" href="publications.html">Reports &amp; resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Take action</h3>
+          <ul class="mt-6 space-y-3 text-white/75">
+            <li><a class="hover:text-white" href="donate.html">Donate in USD</a></li>
+            <li><a class="hover:text-white" href="donate.html#monthly">Give monthly</a></li>
+            <li><a class="hover:text-white" href="get-involved.html#partner">Partner with us</a></li>
+            <li><a class="hover:text-white" href="get-involved.html#careers">Careers</a></li>
+            <li><a class="hover:text-white" href="donate.html#faq">Donor FAQs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Head office</h3>
+          <address class="mt-6 space-y-3 not-italic text-white/75">
+            <p class="flex gap-3"><i data-icon="map-pin" class="mt-1 h-4 w-4 shrink-0 text-brand-300"></i><span>Ramu College Gate, Ramu,<br>Cox's Bazar 4730, Bangladesh</span></p>
+            <p class="flex gap-3"><i data-icon="phone" class="mt-1 h-4 w-4 shrink-0 text-brand-300"></i><span><a class="hover:text-white" href="tel:+8801823929075">+88 01823 929 075</a><br><a class="hover:text-white" href="tel:+8801825548245">+88 01825 548 245</a></span></p>
+            <p class="flex gap-3"><i data-icon="mail" class="mt-1 h-4 w-4 shrink-0 text-brand-300"></i><a class="break-all hover:text-white" href="mailto:jagonariunnayon@gmail.com">jagonariunnayon@gmail.com</a></p>
+          </address>
+          <div class="mt-6 flex gap-2">
+            <a href="https://www.facebook.com/jnus.cox/" target="_blank" rel="noopener" class="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-brand-500 hover:bg-brand-500" aria-label="JNUS on Facebook"><i data-icon="facebook" class="h-4 w-4"></i></a>
+            <a href="https://www.instagram.com/jnus_ngo/" target="_blank" rel="noopener" class="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-brand-500 hover:bg-brand-500" aria-label="JNUS on Instagram"><i data-icon="instagram" class="h-4 w-4"></i></a>
+            <a href="https://twitter.com/JNUS_CXB" target="_blank" rel="noopener" class="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-brand-500 hover:bg-brand-500" aria-label="JNUS on X (Twitter)"><i data-icon="twitter" class="h-4 w-4"></i></a>
+            <a href="https://www.youtube.com/@jagonariunnayonsangstajnus3028" target="_blank" rel="noopener" class="grid h-10 w-10 place-items-center rounded-full border border-white/15 transition hover:border-brand-500 hover:bg-brand-500" aria-label="JNUS on YouTube"><i data-icon="youtube" class="h-4 w-4"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-16 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/50 md:flex-row md:items-center">
+        <p>© 2009–{{year}} Jago Nari Unnayon Sangstha (JNUS). All rights reserved.</p>
+        <div class="flex flex-wrap gap-x-6 gap-y-2">
+          <a class="hover:text-white" href="about.html#policies">Safeguarding &amp; policies</a>
+          <a class="hover:text-white" href="donate.html#transparency">Financial transparency</a>
+          <a class="hover:text-white" href="contact.html#feedback">Complaints &amp; feedback</a>
+          <button type="button" class="inline-flex items-center gap-1 hover:text-white" data-to-top>Back to top <i data-icon="arrow-right" class="h-3.5 w-3.5 -rotate-90"></i></button>
+        </div>
+      </div>
+    </div>
+  </footer>

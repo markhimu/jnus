@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="{{canonical}}">
+  <meta name="theme-color" content="#EC008C">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jago Nari Unnayon Sangstha (JNUS)">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{image}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@JNUS_CXB">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>.no-js #preloader{display:none}</style>
+  <script>
+    (function(d){var h=d.documentElement;h.classList.remove('no-js');h.classList.add('js');
+      try{if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)h.classList.add('reduced')}catch(e){}
+      setTimeout(function(){if(!window.JN_READY){h.classList.add('reduced');var p=d.getElementById('preloader');if(p)p.remove();}},4500);
+    })(document);
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Jago Nari Unnayon Sangstha",
+    "alternateName": "JNUS",
+    "url": "https://jagonariunnayon.org/",
+    "logo": "https://jagonariunnayon.org/assets/img/jnus-logo.png",
+    "foundingDate": "2009",
+    "description": "A women-led, non-profit, non-political NGO in Cox's Bazar, Bangladesh working on gender-based violence prevention, women's leadership, livelihoods, WASH, health, climate justice and peacebuilding.",
+    "address": { "@type": "PostalAddress", "streetAddress": "Ramu College Gate", "addressLocality": "Ramu, Cox's Bazar", "postalCode": "4730", "addressCountry": "BD" },
+    "telephone": "+8801823929075",
+    "email": "jagonariunnayon@gmail.com",
+    "sameAs": ["https://www.facebook.com/jnus.cox/", "https://twitter.com/JNUS_CXB", "https://www.instagram.com/jnus_ngo/", "https://www.youtube.com/@jagonariunnayonsangstajnus3028"]
+  }
+  </script>
+</head>
+<body data-page="{{page}}" data-theme="{{theme}}">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-full focus:bg-ink focus:px-5 focus:py-3 focus:text-white">Skip to content</a>
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <div id="preloader" aria-hidden="true">
+    <div class="flex flex-col items-center gap-8 px-6 text-center">
+      <img src="assets/img/jnus-logo-light.png" alt="" width="220" height="89" class="preloader-logo h-auto w-44 opacity-0 sm:w-52">
+      <p class="preloader-text font-serif text-3xl italic text-white/90 opacity-0 sm:text-4xl">Women lead. Communities rise.</p>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+{{header}}
+
+  <main id="main">
+{{content}}
+  </main>
+
+{{footer}}
+
+  <div class="cursor" aria-hidden="true"><span class="cursor-label">View</span></div>
+
+  <script src="assets/js/vendor/gsap.min.js" defer></script>
+  <script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/vendor/lenis.min.js" defer></script>
+  <script src="assets/js/icons.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
